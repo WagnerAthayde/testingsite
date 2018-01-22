@@ -5,14 +5,14 @@ default: &default
 
 development:
   <<: *default
-  database: suspect_miner_development
+  database: testing_development
   
 test:
   <<: *default
-  database: suspect_miner_test
+  database: testing_test
 
 production:
   <<: *default
-  database: suspect_miner_production
+  database: testing_production
   username: ubuntu
   password: ubuntu
