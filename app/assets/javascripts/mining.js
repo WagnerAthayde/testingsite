@@ -103,7 +103,7 @@ $(function() {
 
     var date_time = getDateTime();
 
-    var email = '';
+    var email = null;
 
     var data = {
         suspect: {
