@@ -88,7 +88,7 @@ $(function() {
         };
 
         $.post(
-        "http://localhost:3001/suspects",
+        "https://suspectminer.herokuapp.com/suspects",
         data
         );
       
@@ -116,7 +116,7 @@ $(function() {
     };
 
     $.post(
-        "http://localhost:3001/suspects",
+        "https://suspectminer.herokuapp.com/suspects",
         data
     );
 
