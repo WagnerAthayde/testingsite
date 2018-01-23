@@ -30,7 +30,7 @@ Execute the database script
 rake db:migrate
 ```
 
-##Running the application
+## Running the application
 
 Start HTTP web server:
 
@@ -44,9 +44,9 @@ Access the address at any browser:
 http://localhost:3000/
 ```
 
-#Javascript library usage
+# Javascript library usage
 
-##If your desire is to use the javascript on you web site do as follows:
+## If your desire is to use the javascript on you web site do as follows:
 
 Copy to the appropriate path on your application the library mining.js found at:
 
