@@ -1,27 +1,61 @@
-# README
+# Suspect Miner - Testing Site
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple site used to proof the concept for the suspect miner.
 
-Things you may want to cover:
+For more information regarding the Suspect Miner please visit: https://github.com/WagnerAthayde/suspectminer
 
-* Ruby version
+## Installation
 
-* System dependencies
+Git clone the application:
 
-* Configuration
+```console
+git clone https://github.com/WagnerAthayde/testingsite.git
+```
 
-* Database creation
+Change to application directory:
 
-* Database initialization
+```console
+cd testingsite
+```
 
-* How to run the test suite
+Run the following command to install dependencies:
 
-* Services (job queues, cache servers, search engines, etc.)
+```console
+bundle install
+```
 
-* Deployment instructions
+Execute the database script
 
-* ...
-# testing site
-# testing-site
-# testingsite
+```console
+rake db:migrate
+```
+
+##Running the application
+
+Start HTTP web server:
+
+```console
+rails server
+```
+
+Access the address at any browser:
+
+```console
+http://localhost:3000/
+```
+
+#Javascript library usage
+
+##If your desire is to use the javascript on you web site do as follows:
+
+Copy to the appropriate path on your application the library mining.js found at:
+
+```console
+testingsite/app/assets/javascripts/mining.js
+```
+
+Make sure your contact submit form have the id:email_form with a contact_email field for the contact email.
+
+```console
+http://localhost:3000/
+
